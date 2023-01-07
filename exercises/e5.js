@@ -1,4 +1,4 @@
-import { data } from "../data/data";
+import { data } from "../data/data.js";
 
 // SPACE DATA EXERCISE 5
 // Return an array with all Planets' names with a massValue greater or equal to a given number (1-7)

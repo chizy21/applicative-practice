@@ -1,4 +1,4 @@
-import { data } from "../data/data";
+import { data } from "../data/data.js";
 
 // SPACE DATA EXERCISE 9
 // Return the data object of the planet "Earth"
@@ -6,7 +6,10 @@ import { data } from "../data/data";
 
 export function getEarthData(data) {
   // Your code goes here...
+  return data.planets.filter((planet) => planet.name === "Earth")[0];
 }
+
+console.log(getEarthData(data));
 
 
 

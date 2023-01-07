@@ -1,4 +1,4 @@
-import { data } from "../data/data";
+import { data } from "../data/data.js";
 
 // SPACE DATA EXERCISE 2
 // Return an array of all Asteroids' names
@@ -9,6 +9,7 @@ export function getAsteroidNames(data) {
   const asteroid = data.asteroids;
   return asteroid.map(asteroid => asteroid.name);
 }
+console.log(getAsteroidNames(data));
 
 
 

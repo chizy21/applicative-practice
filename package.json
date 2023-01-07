@@ -1,6 +1,7 @@
 {
   "name": "applicative-practice",
   "version": "1.0.0",
+  "type": "module",
   "description": "this is a great way to practice array applicatives in js",
   "main": "index.js",
   "scripts": {
